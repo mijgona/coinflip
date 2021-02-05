@@ -8,10 +8,9 @@ function Box(props) {
   const {fliping}=props;//Считываем случайное число
   const [stop,setStop]=useState(true);
   const [startFlip,setStart]=useState(true);
-  const [wasFlip, setFlip]=useState(0);//По умолчанию выбираем один поворот   
+  const [wasFlip, setFlip]=useState(0);//По умолчанию выбираем один поворот
+  const mesh = useRef()  
   const [side, setSide]=useState(true);//устанавливаем сторону N
-  
-  const mesh = useRef() 
 
   useEffect(() => {
       if(startFlip){//если первый поворот
@@ -22,7 +21,53 @@ function Box(props) {
 
 
     useFrame(() => { 
-      mesh.current.rotation.x+=0.05
+      if (fliping>=wasFlip&&fliping!==0){//Повороты не законченны
+        var f//промежуточное значение
+        if(stop!==true){// если не оставноленно врашение
+          mesh.current.rotation.x=mesh.current.rotation.x+0.09;
+        }
+          if(mesh.current.rotation.x>(2*Math.PI)){//поворот на 360
+                mesh.current.rotation.x=0;            
+                f=wasFlip+1
+                setFlip(f)//добавляем поворот
+                setSide(true)//выбироем сторону
+                setStart(false)  //Не первый запуск
+          }
+          if(mesh.current.rotation.x>Math.PI&&mesh.current.rotation.x<3.16){//поворот на 180
+            f=wasFlip+1
+            setFlip(f)//добавляем поворот
+            setSide(false)//выбироем сторону
+            setStart(false) //Не первый запуск 
+          }          
+      } else {//Повороты закончились
+        if (side){ //сторона n
+          if (!(mesh.current.rotation.x>=1.5&&mesh.current.rotation.x<1.7)) { //поворачивать до стороны n
+            mesh.current.rotation.x+=0.05;
+          }else{//если дошли до стороны N
+            if (startFlip){//не первй запуск
+            mesh.current.rotation.x=1.5//остановить анимацию
+          }else{//при первом запуске
+            setStop(true)//остановить анимацию
+            setFlip(0)//обнуляем повороты
+            mesh.current.rotation.x=1.5 //остановить анимацию
+            window.alert("Вам попалась сторона N")            
+          }
+          }
+        }else{//сторона y
+          if (!(mesh.current.rotation.x>=4.4&&mesh.current.rotation.x<4.6)) { //поворачивать до стороны y
+            mesh.current.rotation.x=mesh.current.rotation.x+0.05;
+          }else{
+            if (startFlip){
+            mesh.current.rotation.x=4.6
+          }else{
+            setStop(true)
+            setFlip(0)
+            mesh.current.rotation.x=4.6
+            window.alert("Вам попалась сторона Y")             
+          }
+          }
+        }
+      }
     });        
   const textureNside=useMemo(()=> new THREE.TextureLoader().load(nside),[]);
   const textureYside=useMemo(()=> new THREE.TextureLoader().load(yside),[]);
