@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/coinflip/static/css/main.1efcebe0.chunk.css",
+    "main.js": "/coinflip/static/js/main.86744bff.chunk.js",
+    "main.js.map": "/coinflip/static/js/main.86744bff.chunk.js.map",
+    "runtime-main.js": "/coinflip/static/js/runtime-main.398d7465.js",
+    "runtime-main.js.map": "/coinflip/static/js/runtime-main.398d7465.js.map",
+    "static/css/2.83531460.chunk.css": "/coinflip/static/css/2.83531460.chunk.css",
+    "static/js/2.2d05ed9c.chunk.js": "/coinflip/static/js/2.2d05ed9c.chunk.js",
+    "static/js/2.2d05ed9c.chunk.js.map": "/coinflip/static/js/2.2d05ed9c.chunk.js.map",
+    "index.html": "/coinflip/index.html",
+    "precache-manifest.71a9f61b44c44e3f048b92076b5cee51.js": "/coinflip/precache-manifest.71a9f61b44c44e3f048b92076b5cee51.js",
+    "service-worker.js": "/coinflip/service-worker.js",
+    "static/css/2.83531460.chunk.css.map": "/coinflip/static/css/2.83531460.chunk.css.map",
+    "static/css/main.1efcebe0.chunk.css.map": "/coinflip/static/css/main.1efcebe0.chunk.css.map",
+    "static/js/2.2d05ed9c.chunk.js.LICENSE.txt": "/coinflip/static/js/2.2d05ed9c.chunk.js.LICENSE.txt",
+    "static/media/nside.png": "/coinflip/static/media/nside.bddb65fa.png",
+    "static/media/yside.png": "/coinflip/static/media/yside.bf1c688e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.398d7465.js",
+    "static/css/2.83531460.chunk.css",
+    "static/js/2.2d05ed9c.chunk.js",
+    "static/css/main.1efcebe0.chunk.css",
+    "static/js/main.86744bff.chunk.js"
+  ]
+}
