@@ -1,10 +1,10 @@
 import React, { useRef, useState, useMemo, useEffect } from 'react'
 import {  useFrame } from 'react-three-fiber'
 import * as THREE from 'three'
-import yside from './assets/y-side.png'
-import nside from './assets/n-side.png'
 
 function Box(props) {
+  
+  
   const {fliping}=props;//Считываем случайное число
   const [stop,setStop]=useState(true);
   const [startFlip,setStart]=useState(true);
@@ -68,9 +68,10 @@ function Box(props) {
           }
         }
       }
-    });        
-  const textureNside=useMemo(()=> new THREE.TextureLoader().load(nside),[]);
-  const textureYside=useMemo(()=> new THREE.TextureLoader().load(yside),[]);
+    }); 
+
+  const textureNside=useMemo(()=> new THREE.TextureLoader().load(require('../../assets/nside.png')),[]);
+  const textureYside=useMemo(()=> new THREE.TextureLoader().load(require('../../assets/yside.png')),[]);
   
   return (
     <>

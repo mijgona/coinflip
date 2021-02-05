@@ -4,7 +4,6 @@ import { Canvas } from 'react-three-fiber'
 import Box from './components/Box/Box'
 
 
-
 function App() {
   var [flip, setFlip]=useState(0);
   const handleStart=((ev)=>{    
@@ -26,7 +25,6 @@ function App() {
               <spotLight position={[-2, 10, 0]} />
               <Box  position={[0, 0, 1]} fliping={flip} />
         </Canvas> 
-        
         <button className="bton m-5 shadow" onClick={handleStart}>Бросить монету</button>
         </div>
           </div>

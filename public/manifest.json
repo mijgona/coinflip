@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Coin Flip",
+  "name": "Coin Flip",
   "icons": [
     {
       "src": "favicon.ico",
