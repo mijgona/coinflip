@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/coinflip/static/css/main.62e12f35.chunk.css",
-    "main.js": "/coinflip/static/js/main.f828b325.chunk.js",
-    "main.js.map": "/coinflip/static/js/main.f828b325.chunk.js.map",
+    "main.js": "/coinflip/static/js/main.6502c7e6.chunk.js",
+    "main.js.map": "/coinflip/static/js/main.6502c7e6.chunk.js.map",
     "runtime-main.js": "/coinflip/static/js/runtime-main.398d7465.js",
     "runtime-main.js.map": "/coinflip/static/js/runtime-main.398d7465.js.map",
     "static/css/2.83531460.chunk.css": "/coinflip/static/css/2.83531460.chunk.css",
     "static/js/2.2d05ed9c.chunk.js": "/coinflip/static/js/2.2d05ed9c.chunk.js",
     "static/js/2.2d05ed9c.chunk.js.map": "/coinflip/static/js/2.2d05ed9c.chunk.js.map",
     "index.html": "/coinflip/index.html",
-    "precache-manifest.039f8c0aa3044dee81152c1f9693c07f.js": "/coinflip/precache-manifest.039f8c0aa3044dee81152c1f9693c07f.js",
+    "precache-manifest.a2423801cd268abb1716a74d3e902ccd.js": "/coinflip/precache-manifest.a2423801cd268abb1716a74d3e902ccd.js",
     "service-worker.js": "/coinflip/service-worker.js",
     "static/css/2.83531460.chunk.css.map": "/coinflip/static/css/2.83531460.chunk.css.map",
     "static/css/main.62e12f35.chunk.css.map": "/coinflip/static/css/main.62e12f35.chunk.css.map",
     "static/js/2.2d05ed9c.chunk.js.LICENSE.txt": "/coinflip/static/js/2.2d05ed9c.chunk.js.LICENSE.txt",
-    "static/media/nside.png": "/coinflip/static/media/nside.bddb65fa.png",
-    "static/media/yside.png": "/coinflip/static/media/yside.bf1c688e.png"
+    "static/media/nside.png": "/coinflip/static/media/nside.b7f0aff9.png",
+    "static/media/yside.png": "/coinflip/static/media/yside.6c33a7bc.png"
   },
   "entrypoints": [
     "static/js/runtime-main.398d7465.js",
     "static/css/2.83531460.chunk.css",
     "static/js/2.2d05ed9c.chunk.js",
     "static/css/main.62e12f35.chunk.css",
-    "static/js/main.f828b325.chunk.js"
+    "static/js/main.6502c7e6.chunk.js"
   ]
 }

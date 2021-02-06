@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "de16c71645d9d4e2dafb76caa03567b1",
+    "revision": "ecad7f6214489cfb5c9ab778d97358d8",
     "url": "/coinflip/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/coinflip/static/css/2.83531460.chunk.css"
   },
   {
-    "revision": "18a32cb8a52a22de49ba",
+    "revision": "4c83797994dcfae4c4f7",
     "url": "/coinflip/static/css/main.62e12f35.chunk.css"
   },
   {
@@ -20,19 +20,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/coinflip/static/js/2.2d05ed9c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "18a32cb8a52a22de49ba",
-    "url": "/coinflip/static/js/main.f828b325.chunk.js"
+    "revision": "4c83797994dcfae4c4f7",
+    "url": "/coinflip/static/js/main.6502c7e6.chunk.js"
   },
   {
     "revision": "cc7b0095f7fbb009f693",
     "url": "/coinflip/static/js/runtime-main.398d7465.js"
   },
   {
-    "revision": "bddb65fa1d6285c50062b1bcb2fc994f",
-    "url": "/coinflip/static/media/nside.bddb65fa.png"
+    "revision": "b7f0aff9344d2c04cc1f016b02473a30",
+    "url": "/coinflip/static/media/nside.b7f0aff9.png"
   },
   {
-    "revision": "bf1c688e053d1f8e5e859698e48f0f80",
-    "url": "/coinflip/static/media/yside.bf1c688e.png"
+    "revision": "6c33a7bc2de1caa02998ecd139b710f2",
+    "url": "/coinflip/static/media/yside.6c33a7bc.png"
   }
 ]);
