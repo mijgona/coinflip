@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bae459e1922ae0d0496ea52084bfdab6",
+    "revision": "de16c71645d9d4e2dafb76caa03567b1",
     "url": "/coinflip/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/coinflip/static/css/2.83531460.chunk.css"
   },
   {
-    "revision": "ba203ad9f0a18e0841c6",
-    "url": "/coinflip/static/css/main.919da84d.chunk.css"
+    "revision": "18a32cb8a52a22de49ba",
+    "url": "/coinflip/static/css/main.62e12f35.chunk.css"
   },
   {
     "revision": "cf9c201d881bdf256da9",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/coinflip/static/js/2.2d05ed9c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ba203ad9f0a18e0841c6",
-    "url": "/coinflip/static/js/main.86744bff.chunk.js"
+    "revision": "18a32cb8a52a22de49ba",
+    "url": "/coinflip/static/js/main.f828b325.chunk.js"
   },
   {
     "revision": "cc7b0095f7fbb009f693",
