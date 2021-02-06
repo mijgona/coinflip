@@ -81,12 +81,12 @@ function Box(props) {
     <cylinderBufferGeometry args={[1,1,0.15,100,true]}
      receiveShadow>
         </cylinderBufferGeometry>
-    <meshPhongMaterial color="#CE9E1E" attachArray="material">
+    <meshPhongMaterial color="#ffa36e" attachArray="material">
     </meshPhongMaterial>
-    <meshToonMaterial color="#CE9E1E" attachArray="material" transparent>
+    <meshToonMaterial color="#ffa36e" attachArray="material" transparent>
             <primitive attach="map" object={textureNside} />
     </meshToonMaterial>
-    <meshToonMaterial color="#CE9E1E" attachArray="material" transparent>
+    <meshToonMaterial color="#ffa36e" attachArray="material" transparent>
             <primitive attach="map" object={textureYside} />
     </meshToonMaterial>
   </mesh>      
