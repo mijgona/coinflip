@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/coinflip/precache-manifest.25a06da1d0bf49276bcadba2e8d837cf.js"
+  "/coinflip/precache-manifest.28f683d44e4d5c75da97babbbfd8ee0a.js"
 );
 
 self.addEventListener('message', (event) => {
